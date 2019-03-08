@@ -1,11 +1,11 @@
 # Site settings
 author: Dylan Michael Labat
-title: 
+title: Coding Creations + Confusions
 header-img: img/home-bg.png
 email: dml252@live.com
 copyright_name: Dylan Michael Labat
 description: > # this means to ignore newlines until "baseurl:"
-  
+  What Went Right and Wrong
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  dylanmlabat
