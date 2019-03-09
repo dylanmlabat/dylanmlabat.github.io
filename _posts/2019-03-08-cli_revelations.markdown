@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Revelations"
-date:       2019-03-09 04:31:39 +0000
+date:       2019-03-08 23:31:40 -0500
 permalink:  cli_revelations
 ---
 
@@ -14,7 +14,7 @@ I never did figure out how to do so, and from what I can see by opening the full
 
 ![](https://i.imgur.com/9xyZgD9.png)
 
-In retrospect, there was no need to push myself to figure it out, since I knew I would eventually need to iterate over each film's own page in order to get the other data I wanted. It provided a good lesson in self-restraint and taught me that it can be more helpful to move to another segment when I'm having difficulty, rather than push myself for too long on something giving my trouble.
+In retrospect, there was no need to push myself to figure it out, since I knew I would eventually need to iterate over each film's own page in order to get the other data I wanted. It provided a good lesson in self-restraint and taught me that it can be more helpful to move to another segment when I'm having difficulty, rather than push myself for too long on something giving me trouble.
 
 While the data I wanted was much easier to scrape from the film's own pages, I ran into a similar issue when trying to scrape the average user rating for each film. It appeared to be easily accessible, and so I caught tunnel vision again trying to figure out how to call on it.
 
@@ -34,7 +34,7 @@ It wasn't until this was working that I realized I could go back and use the sec
 @rating ||= film_page.css("meta")[17].attribute("content").value[0..3]
 ```
 
-Being about to see the smaller collection under `film_page.css("div.js-csi")` helped me realize that I had not been thinking of the HTML in terms of index numbers and instead only in terms of searchable class names. It was a good lesson in realizing that sometimes it is better to go further into writing something that may be longer but works in order to see a pattern that can help you pare your code down after.
+Being able to see the smaller collection under `film_page.css("div.js-csi")` helped me realize that I had not been thinking of the HTML in terms of index numbers and instead only in terms of searchable class names. It was a lesson in continuing with your code and creating something that works first in order to find patterns that can help you shorten your ideas later.
 
 Thankfully, writing the CLI portion of the code was much easier once I had my Film objects all created. I'm glad I put my focus on the scraping portion of the gem first, as it gave me time to think of how I could rewrite my scraping lines while doing the rest. It also helped me find some other minor things in testing that I wanted to change, such as films with multiple directors displaying incorrectly.
 
