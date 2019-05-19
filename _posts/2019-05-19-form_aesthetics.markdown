@@ -33,7 +33,7 @@ I continued to browse w3schools after this, searching for a way to build a drop 
     <option value="Legacy">Legacy</option>
     <option value="Vintage">Vintage</option>
     <option value="Commander">Commander</option>
-  </select>
+</select>
 ```
 	
 This input type also has a range of options that would have allowed me to customize how the drop down list displays for users (number of options displayed, number that can be selected, etc.). However, since I only wanted users to choose one format for each deck, the default construction worked for me. I am, however, glad to know that it is customizable in and of itself should I ever find myself wanting to use that in the future.
