@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dispatch Reminders"
-date:       2019-11-21 20:00:56 +0000
+date:       2019-11-21 15:00:56 -0500
 permalink:  dispatch_reminders
 ---
 
